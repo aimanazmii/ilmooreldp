@@ -28,11 +28,22 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Ilmoore</title>
         <link rel="icon" href="/images/icon.png" />
-        <meta property="og:title" content="Ilmoore" />
-        <meta property="og:type" content="Ilmoore" />
         <meta property="og:url" content="https://ilmoore.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ilmoore" />
+        <meta property="og:description" content="undefined" />
         <meta
           property="og:image"
+          content="https://res.cloudinary.com/staging-ilmoore/image/upload/v1694587485/asser%20landing%20page/Picture1_wq1iby.jpg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="ilmoore.vercel.app" />
+        <meta property="twitter:url" content="https://ilmoore.vercel.app/" />
+        <meta name="twitter:title" content="Ilmoore" />
+        <meta name="twitter:description" content="undefined" />
+        <meta
+          name="twitter:image"
           content="https://res.cloudinary.com/staging-ilmoore/image/upload/v1694587485/asser%20landing%20page/Picture1_wq1iby.jpg"
         />
       </Head>
