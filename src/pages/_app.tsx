@@ -10,9 +10,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
 // const poppins = Poppins({
 //   weight: "400",
 //   subsets: ["latin"],
@@ -31,6 +28,13 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Ilmoore</title>
         <link rel="icon" href="/images/icon.png" />
+        <meta property="og:title" content="Ilmoore" />
+        <meta property="og:type" content="Ilmoore" />
+        <meta property="og:url" content="https://ilmoore.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/staging-ilmoore/image/upload/v1694587485/asser%20landing%20page/Picture1_wq1iby.jpg"
+        />
       </Head>
 
       {/* <Header /> */}
