@@ -29,7 +29,7 @@ const products = [
   {
     name: "Muslim Lifestyle",
     description: "Connect with third-party tools",
-    href: "/muslim",
+    href: "/Testpage",
     icon: SquaresPlusIcon,
   },
 ];
@@ -132,13 +132,6 @@ function HeaderKids() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Language />
-          {/*  */}
-          {/* <a
-            href="#"
-            className="text-sm font-semibold leading-6 text-gray-900 border border-gray-200 py-2 px-2 rounded-md"
-          >
-            Language <span aria-hidden="true">&rarr;</span>
-          </a> */}
         </div>
       </nav>
       <Dialog
@@ -153,10 +146,10 @@ function HeaderKids() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Ilmoore</span>
               <Image
-                className="h-8 w-auto"
-                src="/images/ilmoore.png"
+                className=""
+                src="/images/logokids.png"
                 alt="Ilmoore"
-                width={520}
+                width={100}
                 height={200}
               />
             </a>
@@ -221,12 +214,13 @@ function HeaderKids() {
                 </a>
               </div>
               <div className="py-6">
-                <a
+                <Language />
+                {/* <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Language
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

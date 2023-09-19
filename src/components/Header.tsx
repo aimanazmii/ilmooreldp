@@ -29,13 +29,13 @@ const products = [
   {
     name: "Ilmoore Adult",
     description: "Your customers’ data will be safe and secure",
-    href: "/adult",
+    href: "/404page",
     icon: FingerPrintIcon,
   },
   {
     name: "Muslim Lifestyle",
     description: "Connect with third-party tools",
-    href: "/muslim",
+    href: "/404page",
     icon: SquaresPlusIcon,
   },
 ];

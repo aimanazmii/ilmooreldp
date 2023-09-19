@@ -1,10 +1,4 @@
-import {
-  Card,
-  CardBody,
-  Typography,
-  CardFooter,
-  Button,
-} from "@material-tailwind/react";
+import { Card, CardBody, Typography } from "@material-tailwind/react";
 import React from "react";
 
 const Sevenhero = () => {
@@ -18,8 +12,8 @@ const Sevenhero = () => {
           Make way, learning ahead
         </div>
 
-        <div className="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
-          <Card className="mt-6 w-96">
+        <div className="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-10   lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
+          <Card className="mt-5 w-80">
             <CardBody className="mb-20">
               <img src="https://stridels.com/wp-content/uploads/2022/10/icon-on-demand.svg" />
 
@@ -38,8 +32,7 @@ const Sevenhero = () => {
             </CardBody>
             {/* <CardFooter className="pt-0 mb-5">{""}</CardFooter> */}
           </Card>
-
-          <Card className="mt-6 w-96">
+          <Card className="mt-6 w-80">
             <CardBody className="mb-20">
               <img src="https://stridels.com/wp-content/uploads/2022/10/training-and-development.svg" />
 
@@ -60,7 +53,7 @@ const Sevenhero = () => {
             {/* <CardFooter className="pt-0 mb-5">{""}</CardFooter> */}
           </Card>
 
-          <Card className="mt-6 w-96">
+          <Card className="mt-6 w-80">
             <CardBody className="mb-20">
               <img src="https://stridels.com/wp-content/uploads/2022/10/dedicated-technical-portal.svg" />
 

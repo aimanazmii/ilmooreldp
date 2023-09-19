@@ -19,6 +19,6 @@ const config: Config = {
       nunito: ["nunito", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: ["@tailwindcss/forms"],
 };
 export default config;

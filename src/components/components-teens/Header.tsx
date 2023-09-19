@@ -3,7 +3,6 @@ import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
   ChartPieIcon,
-  CursorArrowRaysIcon,
   FingerPrintIcon,
   SquaresPlusIcon,
   XMarkIcon,
@@ -19,12 +18,6 @@ const products = [
     description: "Get a better understanding of your traffic",
     href: "/kids",
     icon: ChartPieIcon,
-  },
-  {
-    name: "Ilmoore Teen",
-    description: "Speak directly to your customers",
-    href: "/teens",
-    icon: CursorArrowRaysIcon,
   },
   {
     name: "Ilmoore Adult",
@@ -44,26 +37,25 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+function HeaderTeen() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header
-      className="fixed top-0 z-10 w-full bg-white shadow-lg"
+      className="fixed top-0 z-10 w-full bg-white shadow-md"
       aria-label="Global"
       data-aos="fade-down"
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Ilmoore Kids</span>
+            <span className="sr-only">Ilmoore</span>
             <Image
-              className="h-10
-               w-auto"
-              src="/images/logokids.png"
-              alt="Ilmoore kids"
-              width={600}
-              height={600}
+              className="h-8 w-auto"
+              src="/images/ilmoore.png"
+              alt="Ilmoore"
+              width={520}
+              height={200}
             />
           </a>
         </div>
@@ -130,10 +122,16 @@ export default function Example() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/404page"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Ilmoore Business
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/404page"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Ilmoore Creator
           </a>
         </Popover.Group>
@@ -242,3 +240,5 @@ export default function Example() {
     </header>
   );
 }
+
+export default HeaderTeen;

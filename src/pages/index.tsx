@@ -9,6 +9,8 @@ import Fivehome from "@/components/Home/Fivehome";
 import Sixhemo from "@/components/Home/Sixhemo";
 import Quotehero from "@/components/Home/Quotehero";
 import Sevenhero from "@/components/Home/Sevenhero";
+import Cta from "@/components/Home/Cta";
+import Calltoaction from "@/components/Calltoaction";
 
 function index() {
   return (
@@ -22,6 +24,8 @@ function index() {
       <Quotehero />
       <Sixhemo />
       <Sevenhero />
+      {/* <Cta /> */}
+      <Calltoaction />
       <Footer />
     </>
   );
