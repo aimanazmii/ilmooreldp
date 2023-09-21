@@ -15,12 +15,6 @@ import Language from "@/data/Language";
 
 const products = [
   {
-    name: "Ilmoore Sprout",
-    description: "Get a better understanding of your traffic",
-    href: "/sprout",
-    icon: ChartPieIcon,
-  },
-  {
     name: "Ilmoore Kids",
     description: "Get a better understanding of your traffic",
     href: "/kids",
@@ -35,13 +29,13 @@ const products = [
   {
     name: "Ilmoore Adult",
     description: "Your customers’ data will be safe and secure",
-    href: "/404page",
+    href: "/adult",
     icon: FingerPrintIcon,
   },
   {
     name: "Muslim Lifestyle",
     description: "Connect with third-party tools",
-    href: "/404page",
+    href: "/muslim",
     icon: SquaresPlusIcon,
   },
 ];
