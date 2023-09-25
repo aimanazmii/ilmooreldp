@@ -26,7 +26,6 @@ const Secteens = () => {
 
           <Typography
             variant="paragraph"
-            s
             className=" font-regular  mt-5 text-gray-500"
           >
             Our reading and language arts curriculum shapes critical skills
