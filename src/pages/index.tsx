@@ -21,7 +21,7 @@ function index() {
       <ThirdHero />
       <Fourhome />
       <Fivehome />
-      <Quotehero />
+      {/* <Quotehero /> */}
       <Sixhemo />
       <Sevenhero />
       {/* <Cta /> */}

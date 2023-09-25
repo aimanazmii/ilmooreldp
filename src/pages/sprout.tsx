@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Sevenhero from "@/components/Home/Sevenhero";
 import Fivesprout from "@/components/components-sprout/Fivesprout";
 import Foursprout from "@/components/components-sprout/Foursprout";
@@ -20,6 +21,7 @@ function sprout() {
       <Fivesprout />
       <Sixsprout />
       <Sevensprout />
+      <Footer />
     </>
   );
 }

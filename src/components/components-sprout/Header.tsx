@@ -49,7 +49,7 @@ export default function Example() {
 
   return (
     <header
-      className="fixed top-0 z-10 w-full bg-white shadow-lg"
+      className="fixed top-0 z-10 w-full bg-gray-50 "
       aria-label="Global"
       data-aos="fade-down"
     >

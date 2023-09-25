@@ -1,3 +1,4 @@
+import { Typography } from "@material-tailwind/react";
 import React from "react";
 
 const FifthKids = () => {
@@ -18,29 +19,46 @@ const FifthKids = () => {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center grid-cols-1 md:grid-cols-2">
           <div>
-            {" "}
             <div className="2xl:pl-16">
-              <div className="mt-5 text-xl font-bold  text-gray-600 sm:text-2xl">
+              <Typography
+                variant="h2"
+                className="mt-5 text-xl font-bold  text-gray-600 sm:text-2xl"
+              >
                 Build early confidence 
-              </div>
-              <p className="mt-2  text-base leading-relaxed text-gray-600">
+              </Typography>
+              <Typography
+                variant="paragraph"
+                className="mt-2  text-base leading-relaxed text-gray-600"
+              >
                 Awaken excitement by playing with sounds or reading and writing
                 letters.
-              </p>
-              <div className="mt-5 text-xl font-bold  text-gray-600 sm:text-2xl">
+              </Typography>
+              <Typography
+                variant="h2"
+                className="mt-5 text-xl font-bold  text-gray-600 sm:text-2xl"
+              >
                 Connect through conversation
-              </div>
-              <p className="mt-2  text-base leading-relaxed text-gray-600">
+              </Typography>
+              <Typography
+                variant="paragraph"
+                className="mt-2  text-base leading-relaxed text-gray-600"
+              >
                 Encourage learning through everyday routines, like talking about
                 a favorite story.
-              </p>
-              <div className="mt-5 text-xl font-bold  text-gray-600 sm:text-2xl">
+              </Typography>
+              <Typography
+                variant="h2"
+                className="mt-5 text-xl font-bold  text-gray-600 sm:text-2xl"
+              >
                 Expand the imagination 
-              </div>
-              <p className="mt-2  text-base leading-relaxed text-gray-600">
+              </Typography>
+              <Typography
+                variant="paragraph"
+                className="mt-2  text-base leading-relaxed text-gray-600"
+              >
                 Use dramatic play to develop love for the possibilities of
                 stories.
-              </p>
+              </Typography>
             </div>
           </div>
 
