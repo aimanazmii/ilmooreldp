@@ -27,12 +27,11 @@ const Calltoaction = () => {
               Exercitation veniam.
             </p>
             <a
-              href="#"
-              title="submit form"
+              href="/Contactus"
               className="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-semibold text-white transition-all duration-200 bg-teal-500 rounded-md hover:bg-teal-400 "
               role="button"
             >
-              {" "}
+              {" "} 
               Get In Touch{" "}
             </a>
           </div>

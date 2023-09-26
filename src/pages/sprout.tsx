@@ -1,8 +1,5 @@
-import Footer from "@/components/Footer";
-import Sevenhero from "@/components/Home/Sevenhero";
 import Fivesprout from "@/components/components-sprout/Fivesprout";
 import Foursprout from "@/components/components-sprout/Foursprout";
-import Header from "@/components/components-sprout/Header";
 import Herosprout from "@/components/components-sprout/Herosprout";
 import Secsprout from "@/components/components-sprout/Secsprout";
 import Sevensprout from "@/components/components-sprout/Sevensprout";
@@ -13,7 +10,6 @@ import React from "react";
 function sprout() {
   return (
     <>
-      <Header />
       <Herosprout />
       <Secsprout />
       <Thirdsprout />
@@ -21,7 +17,6 @@ function sprout() {
       <Fivesprout />
       <Sixsprout />
       <Sevensprout />
-      <Footer />
     </>
   );
 }

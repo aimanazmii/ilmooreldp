@@ -88,7 +88,7 @@ function Footer() {
             <ul className="mt-6 space-y-4">
               <li>
                 <a
-                  href="#"
+                  href="/sprout"
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
@@ -110,7 +110,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/teens"
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
@@ -121,7 +121,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/adult"
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >

@@ -1,8 +1,6 @@
 import EightthKids from "@/components/components-kids/EightthKids";
 import FifthKids from "@/components/components-kids/FifthKids";
-import Footer from "@/components/components-kids/Footer";
 import Fourkids from "@/components/components-kids/Fourkids";
-import HeaderKids from "@/components/components-kids/HeaderKids";
 import Herokids from "@/components/components-kids/Herokids";
 import JumpeStart from "@/components/components-kids/JumpeStart";
 import NinethKids from "@/components/components-kids/NinethKids";
@@ -16,7 +14,6 @@ import React from "react";
 function index() {
   return (
     <div>
-      <HeaderKids />
       <Herokids />
       <SecKids />
       <ThirdKids />
@@ -28,7 +25,6 @@ function index() {
       <NinethKids />
       <TenthKids />
       <JumpeStart />
-      <Footer />
     </div>
   );
 }

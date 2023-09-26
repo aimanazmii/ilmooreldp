@@ -15,7 +15,6 @@ import Calltoaction from "@/components/Calltoaction";
 function index() {
   return (
     <>
-      <Header />
       <Herohome />
       <Sechero />
       <ThirdHero />
@@ -26,7 +25,6 @@ function index() {
       <Sevenhero />
       {/* <Cta /> */}
       <Calltoaction />
-      <Footer />
     </>
   );
 }

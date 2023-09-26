@@ -15,7 +15,7 @@ import Language from "@/data/Language";
 
 const products = [
   {
-    name: "Ilmoore Sprout",
+    name: "Ilmoore Pre-school",
     description: "Get a better understanding of your traffic",
     href: "/sprout",
     icon: ChartPieIcon,
@@ -150,6 +150,7 @@ export default function Example() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Language />
+
           {/*  */}
           {/* <a
             href="#"
