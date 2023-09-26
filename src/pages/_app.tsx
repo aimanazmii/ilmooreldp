@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 // If loading a variable font, you don't need to specify the font weight
 
@@ -51,6 +52,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <main className={inter.className}>
+        <Analytics />
         <Header />
         <Component {...pageProps} />
         <Footer />
