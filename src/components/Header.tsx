@@ -55,7 +55,7 @@ export default function Example() {
 
   return (
     <header
-      className="fixed top-0 z-10 w-full bg-white shadow-lg"
+      className="fixed top-0 z-10 w-full bg-white"
       aria-label="Global"
       data-aos="fade-down"
     >
@@ -65,7 +65,7 @@ export default function Example() {
             <span className="sr-only">Ilmoore</span>
             <Image
               className="h-8 w-auto"
-              src="/images/ilmoore.png"
+              src="/images/ilm.png"
               alt="Ilmoore"
               width={520}
               height={200}

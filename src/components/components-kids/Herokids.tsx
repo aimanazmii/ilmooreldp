@@ -3,11 +3,11 @@ import React from "react";
 const Herokids = () => {
   return (
     <div className="bg-white ">
-      <section className="py-10 sm:py-16 lg:py-24">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+      <section className="py-10 mt-10 sm:py-16 lg:py-5">
+        <div className="px-4 mx-auto max-w-7xl sm:px-10 lg:px-8">
+          <div className="grid mt-5 items-center grid-cols-1 gap-12 lg:grid-cols-2">
             <div data-aos="fade-right">
-              <h1 className="text-4xl font-extrabold text-black sm:text-6xl lg:text-7xl">
+              <h1 className="text-4xl font-extrabold text-black sm:text-4xl lg:text-7xl">
                 The brightest beginnings for the
                 <div className="relative inline-flex">
                   <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80]"></span>

@@ -179,7 +179,7 @@ function Footer() {
         <hr className="mt-16 mb-10 border-gray-200" />
 
         <p className="text-sm  text-gray-600">
-          &copy; {currentYear()} Telaga Biru Digital{" "}
+          &copy; {currentYear()} Telaga Biru Digital{" V1.0.0 "}
           <a
             className="text-blue-500 hover:underline hover:text-blue-700"
             href="#"
