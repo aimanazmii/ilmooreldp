@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:url" content="https://ilmoore.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Ilmoore" />
-        <meta property="og:description" content="undefined" />
+        <meta property="og:description" content="Ilmoore" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/staging-ilmoore/image/upload/v1694587485/asser%20landing%20page/Picture1_wq1iby.jpg"
